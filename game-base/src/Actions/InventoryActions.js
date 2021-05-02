@@ -1,6 +1,6 @@
-const addToInventory = (newItem) => {
-    return {
+export const addToInventory = (newItem) => {
+    return ({
         type: "ADD_ITEM",
         newItem
-    }
+    })
 }

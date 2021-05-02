@@ -25,7 +25,7 @@ const InventoryReducer = (state = initialState,action) => {
            return {
                // ... creates a copy of state as a new object so it is not copy by reference (Spread operator)
                ...state,
-               inventory
+              inventory
            }
         default:
             return state;
