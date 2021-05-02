@@ -1,0 +1,40 @@
+@import "./../defaultStyles.scss";
+
+.PageContainer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.WorldContainer {
+	margin: 0 auto;
+	padding: 0;
+	height: 500px;
+	width: calc(100% - 40px);
+	max-width: 800px;
+	max-height: 100%;
+	border: 2px solid $black;
+	border-radius: 5px;
+	box-shadow: 4px 4px 8px $shadow;
+}
+
+.InventoryWrapper {
+	margin: 0 auto;
+	height: 60px;
+	width: calc(100% - 40px);
+	max-width: 800px;
+	padding: 10px 0px;
+	display: flex;
+	align-items: center;
+}
+
+.Inventory {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	border: 2px solid $black;
+	border-radius: 5px;
+}
