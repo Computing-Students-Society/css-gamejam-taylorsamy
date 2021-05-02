@@ -3,6 +3,8 @@ import {useSelector} from 'react-redux';
 
 import TestComponent from '../Components/TestComponent'
 import Spacer from './../Components/Spacer'
+import Player from './../Components/Player/Player'
+
 import styles from './WorldMap.module.scss'
 
 const WorldMap = props => {
@@ -19,7 +21,7 @@ const WorldMap = props => {
 			</header>
 
 			<div className={styles.WorldContainer}>
-
+				<Player />
 			</div>
 			<div className={styles.InventoryWrapper}>
 				<section className={styles.Inventory}>
